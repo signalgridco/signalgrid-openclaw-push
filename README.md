@@ -19,7 +19,7 @@ Send push notifications to your iOS / Android / Web via Signalgrid.
 
 ## Installation
 
-openclaw skills install https://github.com/Signalgrid-e-U/openclaw-skill-signalgrid
+openclaw skills install https://github.com/signalgridco/signalgrid-openclaw-push
 
 ## How to use
 
