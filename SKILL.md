@@ -1,6 +1,8 @@
 ---
-name: signalgrid-push
-description: Send push notifications to your iOs / Android phones.
+name: Signalgrid Push
+slug: signalgrid-push
+version: 1.0.1
+description: Send push notifications to your iOS / Android phones.
 ---
 
 # Signalgrid Notify
@@ -8,17 +10,30 @@ description: Send push notifications to your iOs / Android phones.
 Send push notifications through the Signalgrid API using the bundled
 script.
 
+## Prerequisites
+
+ o A Signalgrid Account. If you don't have one, create one here: https://web.signalgrid.co/.  
+ o Set "Tool Profile" to "full". ( Config -> Tools -> Tool Profile )
+ o Install the skill like this:
+ ``` bash
+ clawdhub install signalgrid-push
+ ```
+ o Add your credentials to your OpenClaw settings ( Config -> Environment -> Environment Variable Override )   
+ SIGNALGRID_CLIENT_KEY: "your_client_key_here"  
+ SIGNALGRID_CHANNEL: "your_channel_name_here"  
+
 ## When to use
 
-Use this skill whenever the user asks to:
+Use this skill whenever the user asks to:  
 
--   send a notification
--   notify me
--   send a push
--   push a message
--   alert me
--   send a signalgrid notification
--   notify my phone
+
+ o send a notification  
+ o notify me  
+ o send a push  
+ o push a message  
+ o alert me  
+ o send a signalgrid notification  
+ o notify my phone  
 
 ### Parameters
 
@@ -27,7 +42,7 @@ Use this skill whenever the user asks to:
 | title    | string  | Required. The notification title. |
 | body     | string  | Required. The main message. |
 | type     | enum    | Options: `crit`, `warn`, `success`, `info` |
-| critical | boolean | Optional. Set to true for emergency bypass |
+| critical  |  boolean | Optional. Set to true for emergency bypass |
 
 ## Send a notification
 
