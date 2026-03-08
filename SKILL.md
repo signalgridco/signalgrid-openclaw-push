@@ -16,7 +16,7 @@ script.
  o Set "Tool Profile" to "full". ( Config -> Tools -> Tool Profile )
  o Install the skill like this:
  ``` bash
- clawdhub install signalgrid-push
+ clawdhub --workdir ~/.openclaw install signalgrid-push
  ```
  o Add your credentials to your OpenClaw settings ( Config -> Environment -> Environment Variable Override )   
  SIGNALGRID_CLIENT_KEY: "your_client_key_here"  

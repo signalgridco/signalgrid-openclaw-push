@@ -19,7 +19,9 @@ Send push notifications to your iOS / Android / Web via Signalgrid.
 
 ## Installation
 
-openclaw skills install https://github.com/signalgridco/signalgrid-openclaw-push
+``` bash
+clawdhub --workdir ~/.openclaw install signalgrid-push
+```
 
 ## How to use
 
@@ -42,6 +44,3 @@ The skill maps these keywords to the Signalgrid API:
 - **warn**: warning, alert
 - **success**: successful, ok, done
 - **info**: default
-
----
-© 2026 Signalgrid e.U.
