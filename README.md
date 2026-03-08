@@ -1,5 +1,5 @@
 # Signalgrid Push for OpenClaw
-[![ClawdHub](https://img.shields.io/badge/ClawdHub-Skill-orange?style=for-the-badge&logo=clawd)](https://clawhub.ai/signalgridco/signalgrid-push)
+[![ClawdHub Skill](https://img.shields.io/badge/ClawdHub-signalgrid--push-blue?logo=clawd&logoColor=white)](https://clawhub.ai/signalgridco/signalgrid-push)
 
 Send push notifications to your iOS / Android / Web Browser via Signalgrid.
 
